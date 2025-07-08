@@ -1,10 +1,10 @@
-import HeaderLogo from "./components/HeaderLogo"
+import Header from "./containers/header/Header"
 
 function App() {
   return (
-    <div>
-      <HeaderLogo />
-    </div>
+    <>
+      <Header />
+    </>
   )
 }
 
