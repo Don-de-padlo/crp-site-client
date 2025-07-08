@@ -1,9 +1,9 @@
-import { AppBar, Toolbar, Box } from "@mui/material";
-import HeaderLogo from "~/components/headerLogo/HeaderLogo";
-import HeaderSlogan from "~/components/headerSlogan/HeaderSlogan";
-import HeaderNavLinks from "~/components/headerNavLinks/HeaderNavLinks";
-import HeaderSocialIcons from "~/components/headerSocailIcons/HeaderSocialIcons";
-//import HeaderActionButton from "~/components/headerActionButton/HeaderActionButton";
+import { AppBar, Toolbar, Box } from "@mui/material"
+import HeaderLogo from "~/components/headerLogo/HeaderLogo"
+import HeaderSlogan from "~/components/headerSlogan/HeaderSlogan"
+import HeaderNavLinks from "~/components/headerNavLinks/HeaderNavLinks"
+import HeaderSocialIcons from "~/components/headerSocailIcons/HeaderSocialIcons"
+import HeaderActionButton from "~/components/headerActionButton/HeaderActionButton"
 
 const Header = () => {
   return (
@@ -21,10 +21,11 @@ const Header = () => {
         <Box display="flex" alignItems="center" gap={3}>
           <HeaderNavLinks />
           <HeaderSocialIcons />
+          <HeaderActionButton />
         </Box>
       </Toolbar>
     </AppBar>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
