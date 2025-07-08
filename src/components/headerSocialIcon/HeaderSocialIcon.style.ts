@@ -7,8 +7,11 @@ const iconButtonSx: SxProps<Theme> = {
     borderRadius: "12px",
     padding: 1,
     transition: "background-color 0.2s, color 0.2s",
+    "& svg": {
+        color: "white"
+    },
     "&:hover": {
-        backgroundColor: lighten("#131c24", 0.1)
+        backgroundColor: lighten("#7a86b6", 0.1)
     }
 }
 
