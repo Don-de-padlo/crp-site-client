@@ -9,16 +9,16 @@ interface HeaderNavLinkProps {
 }
 
 const HeaderNavLink: FC<HeaderNavLinkProps> = ({ href, label }) => (
-  <Link href={href} sx={headerNavLinkSx}>
+  <Link href={href} sx={{ textDecoration: "none", color: "inherit" }}>
     <Box
       component="span"
-      sx={{ display: "flex", alignItems: "center", gap: 1 }}
+      sx={headerNavLinkSx}
     >
       {label}
       <img
         src={redArrow}
         alt="red arrow up"
-        style={{ width: 10, height: 10 }}
+        style={{ width: 13, height: 13 }}
       />
     </Box>
   </Link>

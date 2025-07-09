@@ -1,6 +1,7 @@
 import type { FC } from "react"
 import { Stack } from "@mui/material"
-import { Telegram, Twitter } from "@mui/icons-material"
+import { Telegram } from "@mui/icons-material"
+import XIcon from "~/assets/img/header/x.svg"
 import Discord from "~/assets/img/header/discord.svg"
 
 import HeaderSocialIcon from "../headerSocialIcon/HeaderSocialIcon"
@@ -20,7 +21,7 @@ const HeaderSocialIcons: FC = () => {
       ></HeaderSocialIcon>
       <HeaderSocialIcon
         href="https://twitter.com"
-        icon={Twitter}
+        imgSrc={XIcon}
         label="Twitter"
       ></HeaderSocialIcon>
     </Stack>
