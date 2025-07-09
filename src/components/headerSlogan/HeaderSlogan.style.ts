@@ -7,5 +7,5 @@ export const headerSloganSx: SxProps<Theme> = {
   fontWeight: 300,
   letterSpacing: "0.05em",
   whiteSpace: "nowrap",
-  padding: " 3px 0 3px 20px"
+  padding: " 3px 0 3px 20px",
 };

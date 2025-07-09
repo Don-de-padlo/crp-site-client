@@ -2,7 +2,7 @@ import type { SxProps, Theme } from "@mui/material";
 
 const headerActionButtonSx: SxProps<Theme> = {
   fontFamily: `"Montserrat", sans-serif`,
-  padding: "10px 20px",
+  padding: "10px 15px",
   lineHeight: 1.5,
   cursor: "pointer",
   border: "2px solid transparent",
